@@ -120,7 +120,7 @@ submitBtn.onclick = function () {
     const sum = Number(input1.value) * Number(input2.value) 
     printResult(sum)
    }
-   else if (action == '/')  {// действие деление если делаем - то будет...
+   else  if (action == '/')  {// действие деление если делаем - то будет...
     const sum = Number(input1.value) / Number(input2.value) 
     printResult(sum)
    }
